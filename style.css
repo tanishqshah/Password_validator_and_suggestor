@@ -1,0 +1,79 @@
+body{
+    height: 100vh;
+    background: linear-gradient(
+        135deg,
+        #61d954,
+        #2ebf75
+    );
+}
+#PassEntry{ 
+    width: 50%;
+}
+.div{
+    display: flex; /* background-color: blue; */
+     flex-direction: column;  
+     justify-content: center; 
+} 
+
+.check {
+    margin-top: 10px; 
+}
+.f1{
+    display: inline-block;
+}
+
+.check,.pass{
+     margin-left: 25%; 
+    } 
+#SuggestedPass{
+        color: black; 
+        margin-right: 90px; 
+        font-size: medium;
+     } 
+.suggest{
+        width: 50%; 
+        margin-left: 20%; 
+}
+    
+.s{ 
+    text-align: center;
+    /* margin-left: 15%; */
+}
+
+.wrapper{
+    background-color: #ffffff;
+    width: 450px;
+    padding: 50px 0;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 8px;
+    box-shadow: 0 20px 25px rgba(0,0,0,0.2);
+}
+.container{
+    width: 300px;
+    position: relative;
+    margin: auto;
+}
+h6{
+    display: inline-block;
+}
+
+.strength{
+    width: 25%;
+    display: inline-block;
+    position: relative;
+    height: 100%;
+    bottom: 5px;
+}
+#strength-bar{
+    background-color: #dcdcdc;
+    height: 10px;
+    position: relative;
+}
+p{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}

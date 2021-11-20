@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanishq_shah</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="div">
+                <h4 style="margin-top: 10%; text-align :center; color: brown;"> Password Strength Checker </h4>
+                <br>
+                <input type="password" placeholder="Type your password" id="PassEntry"
+                    class="form-control passwordInput pass" oninput="strengthChecker()">
+                <br>
+                <label>
+                    <input class="check" type="checkbox" onclick="myFunction()">
+                    Click here to see Password</label>
+
+                <br>
+                <div id="strength-bar"></div>
+                <p id="msg"></p>
+                <span hidden id="StrengthDisp" class="badge displayBadge"></span> <br>
+            </div>
+            <div class="suggest">
+                <div class="s">
+                    <div id="SuggestedPass" class="badge displayBadge"> </div>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+        <script src="s1.js"></script>
+</body>
+
+</html>
